@@ -32,6 +32,34 @@ To install the chart:
 helm install testapp cosmocloud-deploy --atomic --timeout 30s
 ```
 
+## Installation
+
+### Prerequisites
+- Kubernetes cluster (kind)
+- Helm v3.x
+- kubectl configured to access your cluster
+
+### Setting up the Repository
+ Clone the repository:
+```bash
+git clone https://github.com/Chirag-Punia/cosmocloud-deploy
+cd cosmocloud-deploy
+```
+
+### Installing the Chart
+To install the chart:
+
+```bash
+helm install testapp cosmocloud-deploy --atomic --timeout 30s
+```
+
+### Verifying the Installation
+Check if all pods are running:
+```bash
+kubectl get pods
+kubectl get services
+```
+
 ## Configuration
 
 Configuration values are stored in `values.yaml`. The following table lists the configurable parameters:
