@@ -24,13 +24,6 @@ This Helm chart deploys a complete application stack consisting of a backend ser
    - Service Type: ClusterIP
    - Port: 6379
 
-## Installation
-
-To install the chart:
-
-```bash
-helm install testapp cosmocloud-deploy --atomic --timeout 30s
-```
 
 ## Installation
 
