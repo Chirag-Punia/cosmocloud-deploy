@@ -14,7 +14,7 @@ This Helm chart deploys a complete application stack consisting of a backend ser
 2. Frontend Application
    - Image: shreybatra/sample-frontend
    - Service Type: NodePort
-   - Port: 5173(IN ASSIGNMET IS WAS MENTIONED AS 5175)
+   - Port: 5173(IN ASSIGNMET IS WAS MENTIONED AS 5175 BUT ACTUAL IT WORKS ON 5173)
    - NodePort: 31000
    - Environment Variables:
      - BACKEND_URL: http://backend-svc:8000
